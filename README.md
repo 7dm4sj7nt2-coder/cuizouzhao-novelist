@@ -38,9 +38,10 @@ cuizouzhao-novelist/
 │   ├── structure.md                # 结构技法（倒计时/伪重置/因果闭环/心愿清单/群像收束）
 │   ├── characters-theme.md         # 人物塑造与主题技法
 │   ├── crossbook-universe.md       # 崔氏统一宇宙（跨书闭环时间线）
-│   └── samples.md                  # 样本库（民俗招式/说书套话/收官金句/道具/秘境）
+│   ├── samples.md                  # 样本库（民俗招式/说书套话/收官金句/道具/秘境）
+│   └── kelivo-pack.md              # Kelivo 三合一配置（系统提示词+指令注入+世界书）
 └── worldbook/                      # （可选）RikkaHub 可导入世界书 JSON
-    └── cuizouzhao-worldbook.json   # 崔氏文风世界书（含 20 词条）
+    └── cuizouzhao-worldbook.json   # 崔氏文风世界书（20 词条，与 kelivo-pack.md C 部分对应）
 ```
 
 ## 触发场景
@@ -49,12 +50,14 @@ cuizouzhao-novelist/
 - 续写：按崔氏笔法续写章节
 - 改写：把一段普通文本改成崔氏文风
 - 分析：用崔氏规则诊断文本并给修改建议
+- Kelivo 导入：系统提示词+指令注入+世界书三合一（`references/kelivo-pack.md` + `worldbook/cuizouzhao-worldbook.json`）
 
 ## 版本
 
 - v1.0：基于已蒸馏进度（yingyang 96% / santu 67% / niaoren 32%）
 - v2.0：yingyang 全书读毕，命运母题与前世轮回线落定
-- **v3.0：三部曲全本读完（100%）**，补全三书结局线、收官技法模型（心愿清单式结局/终章群像/首尾呼应/因果闭环/传说生成器）、跨书闭环时间线；新增 `worldbook/cuizouzhao-worldbook.json`（RikkaHub 可导入，20 词条）
+- v3.0：三部曲全本读完（100%），补全三书结局线、收官技法模型、跨书闭环时间线；新增可导入 JSON
+- **v3.1：整合 cuizouzhao-skill 全部内容（三书调性对照/写作工作流/质检清单/参数建议/Kelivo 三合一配置），本仓库为唯一维护源**
 
 ## 许可
 
